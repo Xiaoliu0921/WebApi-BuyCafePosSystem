@@ -1,0 +1,10 @@
+# 讓 C# 檔案被 GitHub Linguist 視為主要語言
+*.cs linguist-detectable=true
+*.csproj linguist-detectable=true
+*.sln linguist-detectable=true
+
+# 忽略 JavaScript 檔案，避免影響統計
+*.js linguist-vendored
+*.ts linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored
